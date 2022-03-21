@@ -1,0 +1,825 @@
+
+
+  /*uber eats start */
+  
+  .uber {
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+    position: sticky;
+    top: 0px;
+    color: #FFFFFF;
+    background-color: #FFFFFF; 
+    z-index: 100;
+    max-width: 100%;
+  }
+  
+  .uber-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+  }
+  
+  .uber-logo {
+    padding: 13px 0;
+    
+  }
+  
+  .uber-logo:hover{
+    transform: scale(1.07);
+    transition: 0.5s;
+  }
+  
+  .uber-cabinet {
+    display: flex;  
+  }
+  
+  .nav-element {
+    margin: auto 0.9rem;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+  }
+  
+  /*.uber-button {
+    color: #1D1D1D;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration :none;
+    background-color: #FFFFFF;
+    Stroke: Solid #E0E0E0;
+    border: 1px solid #E0E0E0;
+    padding: 12px 28px;
+  }
+  
+  .uber-button:hover{
+    transform: scale(1.07);
+    transition: 0.5s;
+    background-color:#E0E0E0;
+    border-radius: 8px;
+    box-shadow:0 7px 30px 0 rgba(0,0,0,0.19);
+  }
+  */
+
+  .link-uber {
+  text-decoration: none;
+  color: #1D1D1D;
+  font-size: 13px;
+  
+  display: flex;
+align-items: center;
+text-align: center;
+  
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 2px;
+  padding: 20px;
+  
+width: 78px;
+height: 40px;
+margin-top: 16px;
+}
+
+.link-uber:hover {
+  text-decoration: none;
+  color: #1D1D1D;
+  font-size: 13px;
+  
+  display: flex;
+align-items: center;
+text-align: center;
+  
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 2px;
+  padding: 20px;
+  box-shadow:0 7px 30px 0 rgba(46, 204, 113);
+  transform: scale(1.07);
+    transition: 0.5s;
+}
+
+/* Начало стилей  */
+.Window {
+  position: center;
+  background:white;
+  z-index: 99999;
+  /*-webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;*/
+  transition: opacity 400ms ease-in;
+  display: none;
+  pointer-events: none;
+ }
+
+ .Window:target {
+  display: block;
+  pointer-events: auto;
+ }
+ 
+ .Window > div {
+  width: 500px;
+  height: 250px;
+  position: relative;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: #f2f2f2;
+  box-shadow: 0px 0px 20px 2px;
+
+ }
+
+ .close {
+  color: #aaa;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    top: 0;
+ }
+ .close:hover { background: #990000; }
+
+ .close2 {
+  background: #fff;
+    border: #555 solid 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    font-size: 14px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 60px;
+    position: absolute;
+  margin-top: 170px;
+   left: 110px;
+ }
+
+ .close2:hover { 
+   background: rgba(46, 204, 113); 
+   transition: 0.5s;
+   text-decoration: none;
+  }
+
+  
+  /*uber eats end */
+
+  .breadcrumb {
+    list-style: none;
+    background-color: #eee;
+    position: absolute;
+    width: 100%;
+    display: block !important;
+    padding: 18px 18px 18px 18px;
+  }
+
+  /*.breadcrumb {
+    position: absolute; 
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}*/
+  
+  /* Отображение элементов списка бок о бок */
+  .breadcrumb li {
+    display: inline-block;
+    font-size: 15px;
+  }
+  
+  /* Добавить символ косой черты (/) перед/за каждым элементом списка */
+  .breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Добавить цвет для всех ссылок внутри списка */
+  .breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Добавить цвет на наведении курсора мыши */
+  .breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  /*Трактир «Пушкин» start*/
+  
+  /*:root {
+    --grid-gap-rest-x: 10px;
+    --grid-gap-rest-y: 50px;
+  }
+  */
+
+  .traktir{
+    /* max-width: var(--max-width); */
+    height: 364px;
+    background-image: url(https://sun9-78.userapi.com/impf/gQ9_nRRUSS6auqAISJAyyHkWnL0onXXO_sn3TA/uyvo0BC8xxQ.jpg?size=1124x364&quality=95&sign=b5e64c8247fa45133200e1249ecdf71a&type=album);
+    background-size: 100% 100%;
+    background-position: absolute;
+    
+    padding-top: 80px;
+    margin-top:  62.5px;
+
+  }
+  
+  .traktir-info {
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+    height: 204px;
+    padding: 40px 35px;
+    background-color: #FFFFFF;
+    width: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border-radius: 2px;
+  }
+  
+  .traktir-info > h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .traktir-info-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .traktir-info-footer-time {
+    color: #FFFFFF;
+    padding: 8px 16px;
+    font-size: 13px;
+background: #262626;
+border-radius: 16px;
+  }
+
+ /* Трактир «Пушкин» end*/
+
+ /*Restaurant-nav start*/
+
+ .Restaurant-nav {
+  /*display: -webkit-box;
+  display: -ms-flexbox;*/
+  display: flex;
+  width: 100%;
+  padding: 30px 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2); 
+}
+
+  .Restaurant-nav__link {
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #626262; 
+    text-decoration: none;
+  }
+
+    .Restaurant-nav__link:hover {
+      text-decoration: none; 
+      color: green;
+    }
+
+    /* Начало стилей  */
+.Window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 99999;
+  transition: opacity 400ms ease-in;
+  display: none;
+  pointer-events: none;
+ }
+ 
+ .Window:target {
+  display: block;
+  pointer-events: auto;
+ }
+ 
+ .Window > div {
+  width: 300px;
+  position: relative;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: #f2f2f2;
+  box-shadow: 0px 0px 20px 2px;
+  color: black;
+ }
+ 
+ .close {
+  background: #cc3300;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  
+  border-radius: 12px;
+  
+  box-shadow: 1px 1px 3px #000;
+ }
+ .close:hover { background: #990000; }
+ /* Окончание стилей */
+
+@media (max-width: 768px) {
+  .res-nav {
+    border: 0; }
+    .res-nav__group {
+      display: none; } }
+      
+      
+
+/*Restaurant-nav end*/
+
+/*menu start*/
+
+/*.Restaurant {
+  padding: 50px 0 30px 0; 
+}
+
+/*.menu-container {
+  overflow: hidden;
+}
+*/
+
+/*.menu-content1 {
+  display: none;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+*/
+
+/*.menu-content2 {
+  display: none;
+}
+*/
+
+/*body {
+  background: #232222;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #fefefe;
+  overflow-y: scroll;
+}*/
+
+/*a {
+  text-decoration: none;
+}
+*/
+
+/*a.link {
+  -webkit-transition: all 150ms ease 0s;
+  transition: all 150ms ease 0s;
+  display: flex;
+  width: 100%;
+  padding: 30px 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2); 
+}
+*/
+
+/*a.link:hover {
+  text-decoration: none; 
+      color: green;
+}
+*/
+
+/*p {
+  margin-bottom: 10px;
+}
+
+.tabs {
+  position: relative;
+  margin: 40px auto;
+  width: 1024px;
+  max-width: 100%;
+  overflow: hidden;
+  padding-top: 10px;
+  margin-bottom: 60px;
+  
+}
+
+.tabs input {
+  position: absolute;
+  z-index: 1000;
+  width: 25%;
+  height: 50px;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  cursor: pointer;
+  margin: 0;
+}
+
+.tabs input#tab-2 {
+  left: 25%;
+}
+
+.tabs input#tab-3 {
+  left: 50%;
+}
+
+.tabs input#tab-4 {
+  left: 75%;
+}
+
+.tabs label {
+  background: #4477CC;
+  color: #fefefe;
+  font-size: 15px;
+  line-height: 50px;
+  height: 60px;
+  position: relative;
+  top: 0;
+  padding: 0 20px;
+  float: left;
+  display: block;
+  width: 25%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1), -2px 0 2px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  -webkit-transition: all 150ms ease 0s;
+  transition: all 150ms ease 0s;
+}
+
+.tabs label:hover {
+  cursor: pointer;
+}
+
+.tabs label:after {
+  content: '';
+  background: #fefefe;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  display: block;
+}
+
+.tabs input:hover + label {
+  background: #FF6600;
+
+}
+
+
+/*.tabs label:first-of-type {
+  z-index: 4;
+}
+
+.tab-label-2 {
+  z-index: 4;
+}
+
+.tab-label-3 {
+  z-index: 3;
+}
+
+.tab-label-4 {
+  z-index: 2;
+}
+
+.tabs input:checked + label {
+  background: #fefefe;
+  color: #1a1a1a;
+  z-index: 6;
+}
+
+.content {
+  height: auto;
+  width: 100%;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background: green;
+  top: -10px;
+  box-sizing: border-box;
+}
+
+.content div {
+  position: relative;
+  float: left;
+  width: 0;
+  height: 0;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  background: #fefefe;
+}
+
+.content div h2 {
+  margin-top: 0;
+}
+
+.tabs .tab-selector-1:checked ~ .content .content-1,
+.tabs .tab-selector-2:checked ~ .content .content-2,
+.tabs .tab-selector-3:checked ~ .content .content-3,
+.tabs .tab-selector-4:checked ~ .content .content-4 {
+  z-index: 100;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  width: 100%;
+  height: auto;
+  padding: 8%;
+}
+
+.content div h2 {
+  color: #4477CC;
+}
+
+.content div p {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  margin: 0;
+  color: #777;
+}
+*/
+
+
+
+.header{
+  margin : 0 0 30px;
+}
+
+.Restaurant-cards {
+  display: flex;
+  
+      flex-wrap: wrap;
+ 
+          justify-content: space-between;
+  width: 100%; 
+}
+
+.Restaurant-menu {
+  position: relative;
+   display: flex;
+   width: 49%;
+   height: 161px;
+   margin-bottom: 50px;
+   padding-left: 10px;
+   background-color: #f9f9f9;
+   border: 1px solid #bebebe;
+ }
+
+.Restaurant-menu:hover{
+  transform: scale(1.07);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.Restaurant-menu__item {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 0;
+}
+
+.Restaurant-menu__item{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+  }
+
+  /*.Restaurant__item{
+
+  }*/
+
+  .Restaurant-menu__title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1d1d1d; 
+    
+  }
+  .Restaurant-menu__text {
+    font-weight: 400;
+    font-size: 13px;
+    color: #626262;
+  }
+  .Restaurant-menu__price {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1d1d1d; 
+    margin: 10px 0 16px;
+  }
+
+  .Restaurant-menu__price2 {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1d1d1d; 
+  }
+    
+  .Restaurant-menu__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 200px;
+    max-height: 160px; 
+  }
+
+/* Media */
+@media (max-width: 992px) {
+  .Restaurant-menu {
+    width: 100%;
+    margin-bottom: 20px; } 
+  }
+
+@media (max-width: 768px) {
+  .Restaurant__title {
+    text-align: center; }
+  }
+
+@media (max-width: 480px) {
+  .Restaurant-menu {
+    height: 120px;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #bebebe; 
+  }
+  .Restaurant-menu__title {
+    font-size: 12px; 
+  }
+  .Restaurant-menu__img {
+    max-width: 150px;
+    max-height: 100px; 
+  }
+  .Restaurant-menu__price {
+    margin-top: 1px; 
+  }
+  .Restaurant-menu__price2 {
+    margin-top: 30px; 
+  }
+}
+
+/*menu end */
+
+/*footer start */
+
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #262626;
+  max-width: 100%;
+  height: 100%;
+}
+
+.footer-logo {
+  padding: 40px 0;
+}
+
+.footer-line{
+  display: block;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 1px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-links {
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 32px;
+  flex-flow: row;
+}
+
+.footer-links-column {
+  flex-basis: 33.3333%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.footer-link {
+  padding: 8px 0;
+  color: #FFFFFF;
+  font-size: 0.8125rem;
+}
+
+.footer-link:hover{
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+
+.footer-legal {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.lang-selector {
+  background: #3B3B3B;
+  
+  color:#FFFFFF;
+  font-size: 0.8rem;
+  padding: 10px 70px 10px 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 12rem;
+}
+
+.lang-selector:focus {
+  outline: none;
+}
+
+.lang-selector-container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 24px;
+  margin-left: -16px;
+}
+
+.lang-selector-container > img {
+  position: relative;
+  left: 30px;
+}
+
+.hashtag {
+  display: inline-block;
+  font-size: medium;
+}
+
+.hashtag::before {
+  content: '#';
+  color: #49A144;
+}
+
+.socials-symbols {
+  display: flex;
+ 
+  gap: 10px;
+  padding-top: 6px;
+  padding-bottom: 13px;
+  
+  
+}
+
+.footer a {
+  color:white ;
+  text-decoration: none;
+  
+}
+
+.footer a:hover {
+  color:grey ;
+  text-decoration: none;
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+
+/*.footer a:active {
+  color: ;
+  text-decoration: none;
+}*/
+
+.footer-dw-labels {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+   /*.lang-selector {
+    width: 176px;
+  } */
+}
+
+@media screen and (max-width: 576px) {
+  .footer-links {
+    flex-flow: column;
+  }
+  .footer-links-column {
+    flex-basis: 100%;
+  }
+  .footer-legal {
+    flex-flow: column nowrap;
+  }
+}
